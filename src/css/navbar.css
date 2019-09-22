@@ -19,6 +19,9 @@
   .app-navbar {
     padding: 20px;
   }
+  .navbar-logo{
+    font-size: 1rem;
+  }
 }
 
 .navbar-logo{
