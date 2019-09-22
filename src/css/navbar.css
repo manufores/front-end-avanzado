@@ -14,23 +14,32 @@
   /* state */
 }
 
+@media (min-width: 500px) {
+  .app-navbar {
+    padding: 20px;
+  }
+  .navbar-logo a {
+    font-size: 1rem;
+  }
+}
+
 
 @media (min-width: 768px) {
   .app-navbar {
     padding: 20px;
   }
-  .navbar-logo{
+  .navbar-logo a {
     font-size: 1rem;
   }
 }
 
-.navbar-logo{
+.navbar-logo {
   margin-right: 5rem;
 }
 
 
 .app-navbar a {
-  font-size: 3rem;
+  
   color: #FFFFFF;
 }
 .app-navbar .fas {
@@ -72,6 +81,9 @@
   }
   .app-navbar.filter .navbar-right-actions {
     display: block;
+  }
+  .app-navbar a {
+    font-size: 3rem;
   }
 }
 
