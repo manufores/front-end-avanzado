@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1, shrink-to-fit=no">
+  <title>BeerFlix</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <!-- styles -->
+  <link rel="stylesheet" href="/src/css/reset.css">
+  <link rel="stylesheet" href="/src/css/styles.css">
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav id="navbar" class="app-navbar no-search filter">
+    <div class="navbarlogoIcon">
+      <!---->
+      <picture>
+        <source media="(max-width: 767px)" sizes="(max-width: 125px) 100vw, 50px" srcset="/src/images/logoP.jpg 50w">
+        <source media="(min-width: 768px) and (max-width: 991px)" sizes="(max-width: 208px) 80vw, 75px"
+          srcset="src/images/logoM.jpg 75w">
+        <img sizes="(max-width: 577px) 70vw, 113px" srcset="/src/images/logoG.jpg 113w" src="/src/images/logoG.jpg">
+      </picture>
+    </div>
+    <div class="navbar-logo">
+      <a href="/">BEERFLIX</a>
+    </div>
+    <div class="navbar-right-actions">
+      <div class="filter-container">
+        <form id="search-form" class="filter-input" novalidate>
+          <input data-pattern-mismatch="Input invalid" required placeholder="search your beer" class="input search"
+            type="text">
+          <input type="date" name="searchDate" id="searchDate" class="input date" data-date-split-input="true">
+          <button type="submit" class="button search">Search</button>
+        </form>
+      </div>
+      <div class="navbar-icon">
+        <i id="navbar-search" class="fas fa-search"></i>
+        <i id="navbar-close" class="fas fa-times"></i>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar-end -->
+  <!-- main–section -->
+  <main>
+  </main>
+  <!-- main-section end -->
+  <!-- comment-form -->
+  <section id="detailSection" class="detail-section">
+  </section>
+  <!-- comment-form end -->
+  <!-- loader -->
+  <div id="loader" class="loader-container hide">
+    <div class="lds-roller">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+  <!-- Loader end -->
+  <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+  <script src="https://cdn.rawgit.com/visionmedia/page.js/master/page.js"></script>
+  <script type="module" src="/src/js/routes.js"></script>
+</body>
+
+</html>
