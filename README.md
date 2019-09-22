@@ -30,6 +30,7 @@ Para añadir cualquier comentario sobre cualquiera de las cervezas, hay que entr
 - Listado de todas las cervezas (no se incluye botón de navegación, se muestra el total de las cervezas en la Home Page).
 - Filtrados por nombre y fecha.
 - Página de detalle con comentarios y likes.
+- En esta versión prevalece la funcionalidad por encima del diseño.
 ### Se puede ver en https://beerflix-manu.herokuapp.com/
 ## 
 Práctica realizada por Manuel Forés para el VII Bootcamp Web - Módulo Frontend Avanzado.
